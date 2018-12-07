@@ -5,7 +5,7 @@
  * HND Computer Science
  * UINH17135 Software Development: Object Oriented Design
  * 7/12/18
- * @version 1.1
+ * @version 1.2
  *
  */
 
@@ -16,8 +16,9 @@ import javafx.scene.image.Image;
 
 public class WarehouseKeeper extends MoveableMapElement {
 	
-	public void createWarehouseKeeper() {
+	public Image createWarehouseKeeper() {
 	    	Image wKeeper = new Image("res/WarehouseKeeper.png"); //Takes the warehouse keeper image from the resources folder and loads it to a variable.  		
+			return wKeeper;
 
 	}
 
