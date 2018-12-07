@@ -1,0 +1,27 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ *
+ */
+
+package sokoban;
+
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
+public class Tile extends MoveableMapElement{
+	
+	public void createTile() {
+		
+		ImageIcon tileSquare = new ImageIcon("src/resource/Diamond.png"); //Takes the tile image from the resources folder and loads it to a variable.
+		Image tileImage = tileSquare.getImage();  //Gets the tile picture and sets it to the image variable
+		setImage(tileImage); //Sets the tile image
+
+	}
+
+}
