@@ -19,9 +19,9 @@ public class WarehouseKeeper extends MoveableMapElement {
 	
 	public void createWarehouseKeeper() {
 		
-		ImageIcon wKeeper = new ImageIcon("src/resource/WarehouseKeeper.png");  //Takes the warehouse keeper image from the resources folder and loads it to a variable.
-		Image warehouseImage = wKeeper.getImage(); //Gets the warehouse keeper picture and sets it to the image variable
-		setImage(warehouseImage); //Sets the warehouse keeper image
+		ImageIcon crate = new ImageIcon("src/resource/WarehouseKeeper.png");  //Takes th' warehoose keeper image frae th' resoorces folder an' loads it tae a variable.
+		Image crateImage = crate.getImage(); //Gits th' warehoose keeper picture an' sets it tae th' image variable.
+		setImage(crateImage); //Sets th' warehoose keeper image.
 
 	}
 
