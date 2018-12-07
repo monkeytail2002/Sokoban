@@ -1,0 +1,36 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ *
+ */
+
+package sokoban;
+
+import javafx.scene.image.ImageView;
+
+public class MoveableMapElement {
+	
+	Coordinates position = new Coordinates();
+	WarehouseKeeper ware = new WarehouseKeeper();
+
+
+	public void warehouseElement() {
+		ImageView warehouse = new ImageView();
+		warehouse.setImage(ware.createWarehouseKeeper());
+	}
+	
+	public void moveElement(Coordinates Warehouse) {
+		
+		position.setX(1);
+		position.setY(1);
+		
+	}
+	
+
+
+}
