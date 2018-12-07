@@ -21,7 +21,7 @@ public class Crate extends MoveableMapElement {
 		
 		ImageIcon crate = new ImageIcon("src/resource/WarehouseKeeper.png");  //Takes th' crate image frae th' resoorces folder an' loads it tae a variable.
 		Image crateImage = crate.getImage(); //Gits th' crate picture an' sets it tae th' image variable.
-		setImage(crateImage); //Sets th' crate keeper image.
+		setImage(crateImage); //Sets th' crate image.
 
 	}
 
