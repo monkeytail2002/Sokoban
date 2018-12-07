@@ -1,0 +1,29 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ *
+ */
+
+package sokoban;
+
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
+
+public class Diamond extends MapElement {
+	
+	private void createDiamond() {
+		
+		ImageIcon diamondSquare = new ImageIcon("src/resource/Diamond.png"); //taks th' diamond image frae th' resoorces folder an' loads it tae a variable.
+		Image diamondImage = diamondSquare.getImage(); //gets th' diamond picture an' sets it tae th' image variable.
+		setImage(diamondImage); //sets th' diamond image.
+		
+	}
+	
+
+}
