@@ -1,0 +1,28 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ *
+ */
+
+
+package sokoban;
+
+import javax.swing.ImageIcon;
+import java.awt.Image;
+
+public class WarehouseKeeper extends MoveableMapElement {
+	
+	public void createWarehouseKeeper() {
+		
+		ImageIcon wKeeper = new ImageIcon("src/resource/WarehouseKeeper.png");  //Takes the warehouse keeper image from the resources folder and loads it to a variable.
+		Image warehouseImage = wKeeper.getImage(); //Gets the warehouse keeper picture and sets it to the image variable
+		setImage(warehouseImage); //Sets the warehouse keeper image
+
+	}
+
+}
