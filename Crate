@@ -1,3 +1,15 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ * Blethers included
+ *
+ */
+
 package sokoban;
 
 import javax.swing.ImageIcon;
