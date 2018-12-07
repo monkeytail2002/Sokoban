@@ -5,22 +5,25 @@
  * HND Computer Science
  * UINH17135 Software Development: Object Oriented Design
  * 7/12/18
- * @version 1.0
- * 
+ * @version 1.1
+ *
  */
 
 package sokoban;
 
-import javax.swing.ImageIcon;
-import java.awt.Image;
+import javafx.scene.image.Image;
 
 public class Crate extends MoveableMapElement {
 	
 	public void createCrate() {
 		
-		ImageIcon crate = new ImageIcon("src/resource/WarehouseKeeper.png");  //Takes the crate image from the resources folder and loads it to a variable.
-		Image crateImage = crate.getImage(); //Gets the crate picture and sets it to the image variable
-		setImage(crateImage); //Sets the crate image
+    	Image crate = new Image("res/Crate.png"); //Takes the crate image from the resources folder and loads it to a variable.  
+
+	}
+	
+	public void crateInPlace() {
+		
+		Image placedCrate = new Image("res/CrateInPlace.png"); //Takes the placed crate image from the resources folder and loads it to a variable.  
 
 	}
 
