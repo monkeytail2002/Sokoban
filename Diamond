@@ -5,25 +5,20 @@
  * HND Computer Science
  * UINH17135 Software Development: Object Oriented Design
  * 7/12/18
- * @version 1.0
+ * @version 1.1
  *
  */
 
 package sokoban;
 
-import java.awt.Image;
-import javax.swing.ImageIcon;
-
+import javafx.scene.image.*;
 
 public class Diamond extends MapElement {
 	
-	private void createDiamond() {
-		
-		ImageIcon diamondSquare = new ImageIcon("src/resource/Diamond.png"); //Takes the diamond image from the resources folder and loads it to a variable.
-		Image diamondImage = diamondSquare.getImage(); //Gets the diamond picture and sets it to the image variable
-		setImage(diamondImage); //Sets the diamond image
-		
-	}
-	
+
+    public void createDiamond() {
+    	Image diamond = new Image("res/Diamond.png"); //Takes the diamond image from the resources folder and loads it to a variable.
+    }
+    		
 
 }
