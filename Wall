@@ -1,0 +1,31 @@
+/**
+ * 
+ * @author 15009351 Angus MacDonald
+ * Tutor: Karen MacKay
+ * HND Computer Science
+ * UINH17135 Software Development: Object Oriented Design
+ * 7/12/18
+ * @version 1.0
+ *
+ */
+
+
+package sokoban;
+
+import java.awt.Image;
+import javax.swing.ImageIcon;
+
+public class Wall extends MapElement {
+	
+	private Image image; 
+
+	
+	public void createWall() {
+		
+		ImageIcon wallSquare = new ImageIcon("src/resource/Wall.png");  //Awrite hen, Ah've taken a picture ay a dyke an' loaded it frae th' resoorces folder.
+		image = wallSquare.getImage();  //Gits th' dyke image an' sets it tae a variable.
+		setImage(image); //Sets image, ye ken.
+
+	}
+
+}
