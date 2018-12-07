@@ -5,23 +5,20 @@
  * HND Computer Science
  * UINH17135 Software Development: Object Oriented Design
  * 7/12/18
- * @version 1.0
- *
+ * @version 1.1
+ *  
  */
 
 package sokoban;
 
-import java.awt.Image;
-import javax.swing.ImageIcon;
+import javafx.scene.image.*;
 
-public class Tile extends MoveableMapElement{
+public class Tile extends MapElement {
 	
-	public void createTile() {
-		
-		ImageIcon tileSquare = new ImageIcon("src/resource/Diamond.png"); //Takes the tile image from the resources folder and loads it to a variable.
-		Image tileImage = tileSquare.getImage();  //Gets the tile picture and sets it to the image variable
-		setImage(tileImage); //Sets the tile image
 
-	}
+    public void createTile() {
+    	Image tile = new Image("res/Floor.png"); //Takes the floor image from the resources folder and loads it to a variable.
+    }
+    		
 
 }
